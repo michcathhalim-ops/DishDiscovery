@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Epilogue", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-display: "Epilogue", serif;
+  
+  --color-primary: #15422E;
+  --color-primary-container: #2E5A44;
+  --color-on-primary-container: #A0CFB4;
+  --color-sage: #2E5A44;
+  --color-sage-dark: #15422E;
+  --color-sage-light: #E7F4EB;
+  --color-sage-emerald: #2D7A4F;
+
+  --color-secondary: #AB3513;
+  --color-secondary-container: #FD6F49;
+  --color-persimmon: #E05A36;
+  --color-terracotta: #AB3513;
+  --color-persimmon-soft: #FFDBD1;
+
+  --color-herb: #4E9F6E;
+  --color-herb-dark: #004425;
+  --color-herb-soft: #E7F4EB;
+
+  --color-amber-urgent: #C36800;
+  --color-amber-soft: #FEF3C7;
+
+  --color-canvas: #FBF9F5;
+  --color-ground: #F5F3EF;
+  --color-surface-card: #EFEEEA;
+  --color-surface-high: #EAE8E4;
+  --color-slate-dark: #1B1C1A;
+  --color-slate-muted: #414943;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FBF9F5;
+  color: #1B1C1A;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1, h2, h3, .font-editorial {
+  font-family: var(--font-serif);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #C1C9C1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #717973;
+}

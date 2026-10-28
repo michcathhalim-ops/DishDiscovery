@@ -1,0 +1,264 @@
+---
+name: DishDiscover
+colors:
+  surface: '#fbf9f5'
+  surface-dim: '#dbdad6'
+  surface-bright: '#fbf9f5'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f5f3ef'
+  surface-container: '#efeeea'
+  surface-container-high: '#eae8e4'
+  surface-container-highest: '#e4e2de'
+  on-surface: '#1b1c1a'
+  on-surface-variant: '#414943'
+  inverse-surface: '#30312e'
+  inverse-on-surface: '#f2f0ed'
+  outline: '#717973'
+  outline-variant: '#c1c9c1'
+  surface-tint: '#3b6750'
+  primary: '#15422e'
+  on-primary: '#ffffff'
+  primary-container: '#2e5a44'
+  on-primary-container: '#a0cfb4'
+  inverse-primary: '#a2d1b5'
+  secondary: '#ab3513'
+  on-secondary: '#ffffff'
+  secondary-container: '#fd6f49'
+  on-secondary-container: '#651400'
+  tertiary: '#004425'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#005e35'
+  on-tertiary-container: '#84d6a0'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#bdeed0'
+  primary-fixed-dim: '#a2d1b5'
+  on-primary-fixed: '#002113'
+  on-primary-fixed-variant: '#234f3a'
+  secondary-fixed: '#ffdbd1'
+  secondary-fixed-dim: '#ffb4a1'
+  on-secondary-fixed: '#3c0800'
+  on-secondary-fixed-variant: '#881f00'
+  tertiary-fixed: '#a1f5bd'
+  tertiary-fixed-dim: '#86d8a2'
+  on-tertiary-fixed: '#00210f'
+  on-tertiary-fixed-variant: '#00522e'
+  background: '#fbf9f5'
+  on-background: '#1b1c1a'
+  surface-variant: '#e4e2de'
+typography:
+  display:
+    fontFamily: Epilogue
+    fontSize: 44px
+    fontWeight: '700'
+    lineHeight: 52px
+    letterSpacing: -0.02em
+  display-mobile:
+    fontFamily: Epilogue
+    fontSize: 34px
+    fontWeight: '700'
+    lineHeight: 42px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Epilogue
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 40px
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Epilogue
+    fontSize: 26px
+    fontWeight: '600'
+    lineHeight: 34px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Epilogue
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Epilogue
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-tablet: 1.5rem
+  gutter-desktop: 2rem
+  margin: 1rem
+  margin-tablet: 2rem
+  margin-desktop: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+The design system establishes a warm, vibrant culinary identity centered around conscious cooking and mindful consumption. It merges the utility of an intelligent kitchen assistant with the sensory appeal of a high-end food publication. 
+
+The aesthetic sits at the intersection of **Contemporary Editorial and Tactile Organicism**. Rather than looking like a clinical inventory database, the UI feels earthy, appetizing, and reassuring. Visual warmth counters kitchen anxiety, while crisp micro-details and organic geometry reinforce precision in portioning and recipe generation. Generous whitespace, parchment-textured neutral backdrops, and herb-inspired accents create an inviting, domestic atmosphere optimized for high-stress cooking environments and quick handheld navigation.
+
+## Colors
+
+The palette draws directly from garden produce, terracotta cookware, and natural unbleached parchment:
+
+- **Primary (`#2E5A44`, Deep Sage)**: Serves as the bedrock brand color, conveying freshness, sustainability, and calm intelligence. Used for primary CTAs, active tab icons, brand anchors, and structural navigation.
+- **Secondary (`#E05A36`, Warm Persimmon/Terracotta)**: Represents heat, appetite, and cooking action. Reserved for high-intent interactions, recipe generation highlights, and active culinary states.
+- **Tertiary (`#4E9F6E`, Fresh Herb)**: Provides vivid contrast for positive feedback, successful inventory matches, high-compatibility percentages, and freshness confirmations.
+- **Neutral Palette (`#FBF9F5` Canvas, `#F5F1E9` Ground, `#EFE9E0` Card Surfaces)**: Warm culinary creams replacing sterile digital whites. Provides comfort in high-glare kitchen environments.
+- **Text & On-Surface (`#1C2826` Heading Dark Slate, `#2D3A37` Body Slate)**: Forest-tinged charcoals delivering optical contrast without the harshness of pure black.
+
+### Expiration Urgency Tiers
+- **Stable / Fresh**: Emerald tint (`#2D7A4F`, background `#E7F4EB`) for ingredients with H^\ÈY‚‹H
+Š‘^\š[™ÈÛÛÛŠŠˆ[X™\ˆØÚ™H
+ĞÌÎØ˜XÚÙÜ›İ[™Ñ‘L˜
+H›Üˆ[™Ü™YY[ÈÚ]¸ $ÌÈ^\ÈY‚‹H
+Š•\™Ù[\ÙJŠˆÜXÙYÜš[\ÛÛˆ
+ĞÍLÌÌ˜XÚÙÜ›İ[™Ñ‘NN
+H›Üˆ][\È^\š[™ÈÚ][ˆ8 $Íİ\œË‚‚ˆÈÈ\ÙÜ˜\B‚•H\HŞ\İ[H›[™ÈİXİ\˜[[Ù\›š\ÛHÚ]İ[[˜\HØ\›]ˆ‚‹H
+Š‘\[ÙİYJŠˆ[˜İ[ÛœÈ\ÈHXY[™H[™\Ü^H\Y˜XÙKˆ]ÈİXİ\˜[›ÜÜ[ÛœÈØ\œHİXH[X[š\İ]Z\šÜËÜ™X][™ÈH[XšX[˜ÙHÙˆ[ˆ\\Ø[˜[ÛÛÚØ›ÛÚÈÜˆÛÛ[\Ü˜\Hİ[[˜\H›İ\›˜[‚‹H
+Š”\È˜ZØ\HØ[œÊŠˆİÙ\œÈ[İXİ\˜[RH[[Y[Ë›ÙHÛÜK[Y\İ[\Ë[™Ü™YY[[™[ÜšY\Ë[™[œİXİ[Û˜[™XÚ\Hİ\Ëˆ]È[ZZYÚ[™œšY[™HÙ[ÛY]šXÈ\›Z[˜[ÈXZ[Z[ˆYÚXš[]H]\›IÜÈ[™İÚ[ˆH]šXÙH\È›ÜYÛˆHÚ]Ú[ˆÛİ[\‹‚‹H[Y\˜[È[ˆ™XÚ\HX]Ú\˜Ù[YÙ\ËÛÛÚÚ[™È[Y\œË[™[™Ü™YY[ÙZYÚ]X[]Y\È\™H\Ü^YY[ˆYY][K]ËX›ÛÙZYÚÈÚ]X[\ˆ[š[™ÈšYİ\™\ÈÈ[œİ\™H™\XØ[[YÛ›Y[XÜ›ÜÜÈ[˜[ZXÈ[™Ü™YY[\İË‚‚ˆÈÈ^[İ]	ˆÜXÚ[™Â‚•H^[İ]\ÈZ[\›İ[™]ZXÚÈÛ™KZ[™Y[Øš[H[\˜Xİ[ÛœÈÚ[HÛÛÚÚ[™ËY\[™ÈÜ˜XÙY[HÈX›]Ú]Ú[ˆØÚÜÈ[™\ÚİÜ™XÚ\H[›š[™Î‚‚‹H
+Š“[Øš[H
+Í
+JŠˆXÛÛ[[ˆ›ZY^[İ]Ú]Mœİ]\ˆX\™Ú[œËˆÛÛ[š[Üš]^™\È[X›YY™\XØ[ØÜ›Û[™ÈÚ]İXÚŞH›İÛH\ÚÈ˜\œËÙY\[™È[\˜Xİ]™HšYÙÙ\œÈÚ][ˆİ[™\™[Xˆ™XXÚ‚‹H
+Š•X›]
+ÍHL
+JŠˆXÛÛ[[ˆ^[İ]Ú]ÌœX\™Ú[œËˆÜ[Z^™\È›ÜˆÚ]Ú[ˆÛİ[\ˆİ[™ÈšXHÜ]\ØÜ™Y[ˆ[™[È
+K™Ë‹]™H[™Ü™YY[ÚXÚÛ\İ[›™YÛˆHYİ\XK\İ\ÛÛÚÚ[™Èİ\ÈÛˆHšYÚ
+K‚‹H
+Š‘\ÚİÜ
+ˆL
+JŠˆL‹XÛÛ[[ˆ^[İ]X^]ÚYÛÛœİ˜Z[™YÈLÚ]İ]\ˆX\™Ú[œËÙ[\š[™Èš\İX[YX[[›š[™ÈÜšYÈ[™[H›Ø\™Ë‚‚ˆÈÈÈÜXÚ[™Èš]B•™\XØ[ØY[˜ÙH™[Y\ÈÛˆH[Ù[\ˆÜ]X[ÜšY
+ÜXÙK^ØHÜXÙK\ÛXHÜXÙK[YHMœÜXÙK[ØHÜXÙK^H
+KˆÛÛ\Û™[Y[™ÜÈ[™™XÚ\H›İÈÜXÚ[™Èİ^HÜ[ˆ[™œ™X]X›K]›ÚY[™Èš\İX[Û]\ˆÚ[ˆ›ØÙ\ÜÚ[™È[œÙH]š][Û˜[[™[™Ü™YY[]K‚‚ˆÈÈ[]˜][Ûˆ	ˆ\‚•š\İX[Y\˜\˜ÚH\ÈÛÛ[][šXØ]Y›İYÚ
+Š•Û˜[\˜ÚY[^Y\š[™ÊŠˆZ\™YÚ]Ø\›H[XšY[ÚYİÜÎ‚‚‹H
+Š”İ\™˜XÙH]™[ÊŠ‚ˆH˜\ÙHØ[˜\Øˆ˜XÚÙÜ›İ[™Ø[˜\È[ˆÑ‘QX‚ˆHİ\™˜XÙHH
+Ø\™Ë[Ù[\ÊXˆÛÙ\˜ÚY[Û™HÑQŒQNXÚ]HİXHİ][™H
+\ÛÛY™Ø˜J‹LŒŠX
+K‚ˆHİ\™˜XÙHˆ
+[]˜]YÚY]Ë˜]Ù\œË[Ù[ÊXˆÛX[ˆØ\›HÚ]HÑ‘‘‘‘‘˜Ü™X][™ÈÛX\ˆ›ØØ[ÛÛ˜\İİ™\ˆ[Y\˜ÚY[‚‹H
+Š”ÚYİÈ›Ùš[JŠˆÚYİÜÈ\™H[YÚ]Y\Ü™Y[ˆÛ]H
+ÌPÌ˜
+H˜]\ˆ[ˆXÚ›ÛX]XÈÚ\˜ÛØ[ÛÙ[š[™ÈRH^Y\œÈYØZ[œİ˜]\˜[YÚ‚ˆH[]˜][ÛˆH
+Ø\™È	ˆÛÛ›ÛÊXˆœLœ™Ø˜JÎŒJK\Ü™Ø˜JÎŒÊXˆH[]˜][Ûˆˆ
+›Ø][™ÈXİ[Ûˆ]ÛœÈ	ˆ˜]šYØ][Ûˆ˜\œÊXˆM™Ø˜JÎŒ
+KÜœLœ™Ø˜JÎŒ
+XˆH[]˜][ÛˆÈ
+›İÛHÚY]È	ˆ[Ù[ÊXˆMœN™Ø˜JÎŒMŠX‹H
+ŠØ[Y\˜HØØ[›™\ˆ[ÙJŠˆ\Ù\È[ˆ[˜KY\šÈ˜[œÛXÚYØÜš[H
+™Ø˜JËNKËÍJX
+HÚ]HYÚXÛÛ˜\İİ]İ][™ÛÙÚ]H\™Ù]ÛİÈÈİZYH[HØØ[›š[™È[ˆ˜\Z[™È™YœšYÙ\˜]ÜˆYÚ[™Ë‚‚ˆÈÈÚ\\Â‚•H\ÚYÛˆŞ\İ[H[Xœ˜XÙ\ÈÙ[™\›İ\ËXİ[Hİ\˜]\™\ÈÈ[\\Ú^™HœšY[™[™\ÜËXØÙ\ÜÚXš[]K[™Ü™Ø[šXÈÜ˜Y‚‚‹H
+Š˜\ÙH˜Y]\È
+\™[XÈ
+JŠˆ›Ü›H[œ]ËY]Y]HYÜË^\˜][Ûˆ[[™XØ]ÜœË[™ÛX[XÛÛœË‚‹H
+Š“\™ÙH˜Y]\È
+\™[XÈMœ
+JŠˆİ[™\™™XÚ\HØ\™Ë[\›ØÚÜË]š][Ûˆİ[[X\H[™[Ë[™›Ø][™ÈØ\İË‚‹H
+Š‘^˜H\™ÙH˜Y]\È
+K\™[XÈH›İ[™YL
+JŠˆ[\˜Xİ]™HÕH]ÛœËXZ[ˆØ\™[Ù[\Ë[Ù[ÚY]Ë[™Ø[Y\˜HØØ[›™\ˆšY]Ùš[™\ˆœ˜[Y\Ë‚‹H
+Š‘[[
+NNN\
+JŠˆ[™Ü™YY[š[\ˆÚ\Ëİ]\È˜YÙ\Ë[Y\ˆ˜YÙ\Ë[™Xİ]™HÙÙÛHØ\İ[\Ë‚‚ˆÈÈÛÛ\Û™[Â‚ˆÈÈÈ]ÛœÂ‹H
+Š”š[X\JŠˆY\ØYÙH
+Ì‘MPM
+Hš[Y]ÛˆÚ]Ú]H^›Ü™\ˆ˜Y]\È
+›İ[™YL
+KÜXÙK[YÜš^›Û[Y[™Ë[™İXH™\İ[™È[XšY[ÚYİËˆXİ]™Hİ]H\™\ÜÙ\ÈİXHšXHØØ[H˜[œÙ›Ü›H
+ØØ[JN
+X
+K‚‹H
+Š”ÙXÛÛ™\HÈXİ[ÛŠŠˆØ\›H\œÚ[[[Ûˆ
+ÑLPLÍ˜
+Hš[Y]ÛˆYXØ]YÈÙ[™\˜]]™HRHXİ[ÛœÈ
+K™Ë‹‘Ù[™\˜]H™XÚ\\Èœ›ÛHœšYÙHŠK‚‹H
+Š‘ÚÜİÈİ][™Y
+Šˆ˜[œÜ\™[˜XÚÙÜ›İ[™Ú]K\›Ü™\ˆ[ˆÌ‘MPM[™Y\ØYÙH^‚‹HZ[š[][HİXÚ\™Ù]›Üˆ[[Øš[H[\˜Xİ]™H]ÛœÈ\È[ˆZYÚÈXØÛÛ[[Ù]HY\ÜŞHÜˆÙ]ÛÛÚÚ[™È[™Ë‚‚ˆÈÈÈØ\™È	ˆ[H[Ù[\Â‹HZ[Ûˆİ\™˜XÙHH
+ÑQŒQNX
+HÚ]MœÜˆÛÜ›™\ˆ˜YZK‚‹H[˜ÛYHYXØ]YİX‹\™YÚ[ÛœÈ›Üˆ^\˜][Ûˆ˜YÙH
+Ü\šYÚ
+K[˜[ZXÈ\›È›ÛÙ[X›˜Z[™XÚ\HX]Ú\˜Ù[YÙH˜YÙK[™ÛÛÚÈ[YK‚‚ˆÈÈÈ[™Ü™YY[[Ú\Â‹H
+Š”™\İ[™ÊŠˆÛÛ\XİÌœZYÚ[[˜Y]\È
+NNN\
+KYÚ\˜ÚY[İ\™˜XÙH
+ÑQ‘NQL
+KÛ]H^XØÛÛ\[šYYHH]ZXÚÈ\ÛZ\ÜÈXÛÛˆÜˆØ]YÛÜHİ‚‹H
+Š”Ù[XİY
+ŠˆY\ØYÙH
+Ì‘MPM
+Hš[Ú]\™HÚ]HX™[‚‹H
+Š“Z\ÜÚ[™ÈÈØ\[™Ü™YY[
+Šˆ\ÚYK\›Ü™\ˆ
+ÑLPLÍ˜
+KÛÙ\œ˜XÛİH˜XÚÙÜ›İ[™[
+™Ø˜JŒLMŒ
+X
+K[™XØ][™È][\È™YYY›ÜˆHİYÙÙ\İY™XÚ\K‚‚ˆÈÈÈ^\˜][Ûˆ˜YÙ\Â‹HÛX[ÛÛ\Xİ[ÈÚ]X™[\ÛX›Û\\˜Ø\ÙH\ÙÜ˜\K‚‹H\Ù\ÈYÚXÛÛ˜\İÙ[X[XÈZ\œÈ
+[Y\˜[ØÚ™H[X™\‹ÜXÙYÜš[\ÛÛŠHXØÛÛ\[šYYHÛX\ˆXÛÛ›ÙÜ˜\H
+K™Ë‹XY‹İ\™Û\ÜË^Û[X][ÛŠHÈİ\ÜÛÛÜ‹X›[™XØÙ\ÜÚXš[]K‚‚ˆÈÈÈ™XÚ\HX]Ú\˜Ù[YÙH[™XØ]Ü‚‹H˜YX[›ÙÜ™\ÜÈš[™ÜÈÜˆÛÛ\XİÜš^›Û[˜\œÈ™X]\š[™ÈHÛËXÛÛÜˆ˜XÚÎˆ]]YØYÙH
+ÑQ‘NQL
+Hš[YÚ]œ™\Ú\˜ˆ
+ÍNQ‘X
+HÜˆ\œÚ[[[Ûˆ
+ÑLPLÍ˜
+K‚‹H[Ø^\ÈXØÛÛ\[šYYH^XÚ]^
+K™Ë‹M	HX]Ú8 (ˆˆZ\ÜÚ[™ÈŠK‚‚ˆÈÈÈØ[Y\˜HØØ[›™\ˆİ™\›^B‹HYÙK]ËYYÙH\šÈ˜[œÛXÙ[Ø[›ÜHÚ]›İ[™YLØ[Y\˜H™]XÛH
+˜Y]\ÊK‚‹H™X]\™\È›Ø][™ÈRH]Xİ[ÛˆX˜›\ÈÚ][ˆÜØÚ[][™Èœ™\Ú\˜ˆ[ÙHš[™È\›İ[™Y[YšYY][\È
+K™Ë‹™[\\ˆ‹‘Ü™YZÈ[Ùİ\ŠK‚‚ˆÈÈÈİXÚŞH[Øš[H˜]šYØ][Ûˆ	ˆ›İÛHÚY]Â‹H
+Š›İÛH˜]šYØ][ÛŠŠˆ›Ø][™ÈØÚÈ[]˜]YX›İ™HHØ[˜\È\Ú[™Èİ\™˜XÙHˆ
+Ñ‘‘‘‘‘˜
+KÜ›Ü™\ˆ˜Y]\Ë[Y[]˜][ÛˆÚYİË[™[X‹XXØÙ\ÜÚX›HXœÈÚ]Xİ]™H[™XØ]ÜˆİË‚‹H
+Š›İÛHÚY]ÊŠˆÛYK]\\˜ÚY[İ\™˜XÙHÚ]H›ÛZ[™[˜YÈ[™H
+ÚYKYÚÑĞĞÌ
+K][^™Y›Üˆ˜\Y[™Ü™YY[Y\İY[È[™İ\XK\İ\ÛÛÚÚ[™È[ÙHÚ]İ]ÜÚ[™ÈHX\İ\ˆ™XÚ\HÛÛ^
